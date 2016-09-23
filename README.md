@@ -2,7 +2,7 @@
 
 Question 1 - What’s your favorite tool or library for Android? Why is it so useful?
 
-- My favorite library for Android currently is Retrofit with jsonschema2pojo.  A manual API call in Android requires creating a new thread generally with an AsyncTask, and then creating a ton of JSONObjects or JSONArrays depending on the incoming data.  jsonschema2pojo takes the JSON data and automatically creates POJOs (Plain Old Java Objects) for you to use. Retrofit takes care of the call and creates a separate thread for you.  It's so much simpler to implement and the number of lines of code is reduce immensely.
+- My favorite library for Android currently is Retrofit.  A manual API call in Android requires creating a new thread generally with an AsyncTask, coding the HTTP call, and then creating a ton of JSONObjects or JSONArrays depending on the incoming data.  Retrofit is useful because it takes care of the call and creates a separate thread for you.  It's so much simpler to implement and the number of lines of code is reduce immensely.  I especially like how easy it is to modify the URL if needed.  Additionally it works well with Gson, so you'll be able to parse the JSON data easily without creating the JSONObjects/JSONArrays manually. 
 
 Question 2 - You want to open a map app from an app that you’re building. The address, city, state, and ZIP code are provided by the user. What steps are involved in sending that data to a map app?
 
